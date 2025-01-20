@@ -86,16 +86,6 @@ margin-left: -5em;
     width: calc(100% + 1em); /* Adjust to avoid breaking layout */
     margin-left: -0.5em;
   }
-  
-  h1{
-  margin-bottom: 1rem;
-  margin-top: 3rem;
-  margin-left: 0cm;
-  font-size: 3rem;
-  font-weight: 500;
-}
-
-  
 }
 
 
