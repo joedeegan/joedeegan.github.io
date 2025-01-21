@@ -3,13 +3,9 @@ body{
  max-width: 15cm;
   text-align: left;
 background-color: #fefefe;
-color: black;
 font-family: "geist";
 margin-left: auto;
 margin-right: auto;
-padding:1cm;
-
-
 margin-bottom: 10rem;
 
 }
@@ -26,6 +22,9 @@ a:hover{
   font-weight: 300;
 }
 
+.nav a:active{
+  text-decoration: underline;
+}
 
 h1{
   margin-bottom: 1rem;
@@ -42,14 +41,42 @@ margin-bottom: 0.5rem;
 letter-spacing: -0.05em;
 }
 
-p { max-width: 15cm;
-    font-weight: 300;
+.blog p { max-width: 14cm;
+    font-family: georgia;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
     margin: 0rem;
     margin-bottom:1rem;
     margin-top: 0rem;
     margin-left: auto;
     margin-right: auto;
 }
+
+.homepage p{
+font-family: "geist";
+margin-left: auto;
+margin-right: auto;
+font-size: 1rem;
+font-weight: 300;
+max-width: 15cm;
+line-height: 1.25rem;
+}
+
+hr {
+  max-width: 14cm;
+  margin-top: 0.5cm;
+}
+
+.blog h2{font-weight: 500;
+font-size: 2rem;
+margin-top: 2.5rem;
+margin-bottom: 1rem;
+margin-left: -1rem;
+letter-spacing: -0.05em;
+font-family: georgia;
+font-weight: 800;
+}
+
 
 .column {
   float: left;
@@ -61,30 +88,50 @@ p { max-width: 15cm;
 margin-left: -5em;
 }
 
-.nav{
-  font-size: 1.25rem;
+.nav a{
+  font-size: 2.5rem;
   font-weight: 500;
   text-decoration: none;
   margin:0cm;
   padding:0cm;
   border:0cm;
-  margin-top: 3cm;
+  margin-left: -4cm;
+  font-family: "Geist" !important;
 }
 
-.nav:hover{
+.nav a:hover{
   font-weight: 500;
   text-decoration: none;
 }
 
+.nav{
+  margin-top: 2rem;
+}
+
+
 @media (max-width: 800px) {
   body {
-    padding: 0.5cm; /* Adjust padding for smaller screens */
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;/* Adjust padding for smaller screens */
   }
 
   .wide {
     width: calc(100% + 1em); /* Adjust to avoid breaking layout */
     margin-left: -0.5em;
   }
+    h1{
+    margin-left: 0cm;
+    margin-top: 2cm;
+  }
+  
+}
+
+@media (max-width: 1200px) {
+  .nav a{
+      margin-left: 0cm;
+  }
+  
+
 }
 
 
@@ -124,4 +171,34 @@ td{
   margin-left: auto;
   margin-right: auto;
   margin-top: 1cm;
+}
+
+.title .red{
+  color: #D0021B; 
+  font-weight:200;
+  font-size: 2rem;
+}
+
+.title p{
+      font-family:"Geist";
+  font-size: 2rem;
+  font-weight: 500;
+margin-top: 2.5rem;
+margin-bottom: 0.5rem;
+letter-spacing: -0.05em;
+}
+
+.project p{
+  font-family: Geist;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  max-width: 15cm;
+}
+
+.d-none {
+  display: none;
+}
+
+p.date{
+  display: none;
 }

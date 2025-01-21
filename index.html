@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head><meta charset="utf-8">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script><meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <title>Joe Deegan</title>
@@ -18,12 +20,42 @@
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="styles.css">
+  <script>
+
+    window.document.addEventListener("DOMContentLoaded", function (_event) {
+      const listingTargetEl = window.document.querySelector('#listing-projects .list');
+      if (!listingTargetEl) {
+        // No listing discovered, do not attach.
+        return; 
+      }
+
+      const options = {
+        valueNames: ['listing-project','listing-website','listing-format','listing-editor','listing-language','listing-title','listing-date','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+        
+        searchColumns: ["listing-project","listing-website","listing-format","listing-editor","listing-language","listing-title","listing-date","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      };
+
+      window['quarto-listings'] = window['quarto-listings'] || {};
+      window['quarto-listings']['listing-projects'] = new List('listing-projects', options);
+
+      if (window['quarto-listing-loaded']) {
+        window['quarto-listing-loaded']();
+      }
+    });
+
+    window.addEventListener('hashchange',() => {
+      if (window['quarto-listing-loaded']) {
+        window['quarto-listing-loaded']();
+      }
+    })
+    </script>
 </head>
 <body>
 
 
 <p><link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""> <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&amp;display=swap" rel="stylesheet"></p>
 <h1 id="joe-deegan">Joe Deegan</h1>
+<div class="homepage">
 <p>I am an Irish doctor working as a specialty registrar in public health medicine in the UK.</p>
 <p>I’m interested in evaluation, operational research, and design thinking in healthcare. I completed my medical degree in Trinity College Dublin, and my MSc in Public Health at the London School of Hygiene and Tropical Medicine.</p>
 <p>I’m currently working as part of the public health team at Kent County Council.</p>
@@ -31,30 +63,35 @@
 <p>If you’d like to chat to me about my work or anything at all, please get in touch! You can find me on <a href="https://www.linkedin.com/in/deeganjoe/">LinkedIn</a> or <a href="https://bsky.app/profile/joedeegan.bsky.social">Bluesky</a>.</p>
 <h2 id="some-projects">Some Projects</h2>
 <p>Here are a few projects I’ve worked on over the last while that I’m really proud of. I’ve written a small piece about each of them.</p>
+<div id="listing-projects" class="quarto-listing quarto-listing-container-custom">
 <table>
 <tbody><tr>
 <td>
-Sept 2024
+Aug 2024 <!-- Display the formatted date -->
 </td>
 <td>
  
 </td>
 <td>
-<a href="./posts/msc-dissertation/index.html">MSc Dissertation</a>
+<a href="posts/msc-dissertation">MSc Dissertation</a>
 </td>
 </tr>
 <tr>
 <td>
-Aug 2023
+Sep 2023 <!-- Display the formatted date -->
 </td>
 <td>
  
 </td>
 <td>
-<a href="./posts/lead-nchd/index.html">Lead NCHD/ NCHD Handbook</a>
+<a href="posts/lead-nchd">NCHD Handbook</a>
 </td>
 </tr>
 </tbody></table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 <h2 id="the-problem-of-leisure">The Problem of Leisure</h2>
 <p>It’s always nice to get a fuller picture of someone than a CV can provide. Here’s a few things I’ve enjoyed over the last little while.</p>
 <p>I’ve been listening to Lankum, Romy, Charli XCX, Bonnie Prince Billy, and the Nolan Sisters.</p>
@@ -118,6 +155,8 @@ MB BCh BAO, Trinity College Dublin
 </td>
 </tr>
 </tbody></table>
+</div>
+
 
 
 
