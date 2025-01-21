@@ -189,10 +189,11 @@ letter-spacing: -0.05em;
 }
 
 .project p{
-  font-family: Geist;
+  font-family: "Geist";
   font-size: 1rem;
   line-height: 1.5rem;
   max-width: 15cm;
+  font-weight: 300;
 }
 
 .d-none {
