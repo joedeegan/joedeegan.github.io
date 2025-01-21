@@ -44,7 +44,6 @@ letter-spacing: -0.05em;
 
 p { max-width: 15cm;
     font-weight: 300;
-    line-height: 1.5rem;
     margin: 0rem;
     margin-bottom:1rem;
     margin-top: 0rem;
@@ -117,3 +116,12 @@ td{
   
 }
 
+.blog{
+  font-family: georgia;
+  max-width: 14cm;
+  font-size:1.25em;
+  line-height: 1.875rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1cm;
+}
