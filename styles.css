@@ -39,7 +39,7 @@ font-size: 1.5rem;
 margin-top: 2.5rem;
 margin-bottom: 0.5rem;
 letter-spacing: -0.05em;
-font-family: geist;
+font-family: "geist";
 }
 
 
@@ -61,8 +61,21 @@ font-family: geist;
 
 .blog h3{
   font-family: "geist";
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+  line-height: 1.5rem;
 }
 
+ul{
+  margin: 0rem;
+  margin-bottom: 1rem;
+}
+
+.nospace p{
+  margin: 0rem;
+}
 .blog{
   font-family: georgia;
   font-size:1.25em;
