@@ -39,9 +39,12 @@ font-size: 1.5rem;
 margin-top: 2.5rem;
 margin-bottom: 0.5rem;
 letter-spacing: -0.05em;
+font-family: geist;
 }
 
-.blog p { max-width: 14cm;
+
+
+.blog p { max-width: 15cm;
     font-family: georgia;
     font-size: 1.25rem;
     line-height: 1.875rem;
@@ -65,16 +68,6 @@ line-height: 1.25rem;
 hr {
   max-width: 14cm;
   margin-top: 0.5cm;
-}
-
-.blog h2{font-weight: 500;
-font-size: 2rem;
-margin-top: 2.5rem;
-margin-bottom: 1rem;
-margin-left: -1rem;
-letter-spacing: -0.05em;
-font-family: georgia;
-font-weight: 800;
 }
 
 
@@ -165,7 +158,6 @@ td{
 
 .blog{
   font-family: georgia;
-  max-width: 14cm;
   font-size:1.25em;
   line-height: 1.875rem;
   margin-left: auto;
