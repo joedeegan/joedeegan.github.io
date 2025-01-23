@@ -55,6 +55,24 @@ font-family: geist;
     margin-right: auto;
 }
 
+.blog h2{
+  font-family: "geist";
+}
+
+.blog h3{
+  font-family: "geist";
+}
+
+.blog{
+  font-family: georgia;
+  font-size:1.25em;
+  line-height: 1.875rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1cm;
+}
+
+
 .homepage p{
 font-family: "geist";
 margin-left: auto;
@@ -154,15 +172,6 @@ table{
 td{
     vertical-align: top;
   
-}
-
-.blog{
-  font-family: georgia;
-  font-size:1.25em;
-  line-height: 1.875rem;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1cm;
 }
 
 .title .red{
